@@ -1,36 +1,47 @@
 [
   {
     "Id":1,
+    "SellRent":1,
     "Name":"Birla House",
     "Type":"House",
+    "Image":"prop-2.jpg",
     "Price": 120000
  },
  {
   "Id":2,
+  "SellRent":2,
   "Name":"jain House",
   "Type":"House",
+  "Image":"prop-3.jpg",
   "Price": 1000
 },
 {
 "Id":3,
+"SellRent":1,
 "Name":"ramkunj House",
 "Type":"House",
+"Image":"prop-4.jpg",
 "Price": 140000
 },
 {
 "Id":4,
+"SellRent":1,
 "Name":"shyam House",
 "Type":"House",
+"Image":"prop-5.jpg",
 "Price": 13000
 },
 {
 "Id":5,
+"SellRent":2,
 "Name":"ram House",
 "Type":"House",
+"Image":"prop-6.jpg",
 "Price": 1280000
 },
 {
 "Id":6,
+"SellRent":1,
 "Name":"Ambani House",
 "Type":"House",
 "Price": 1200000
