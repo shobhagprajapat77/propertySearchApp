@@ -9,7 +9,7 @@ import { HousingService } from './services/housing.service';
 import { AddPropertyComponent } from './property/add-property/add-property.component';
 import { Routes,RouterModule } from '@angular/router';
 import { PropertyDetailsComponent } from './property/property-details/property-details.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { UserLoginComponent } from './user/user-login/user-login.component';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
 
@@ -56,6 +56,7 @@ const appRoutes:Routes=[
     BrowserModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [
