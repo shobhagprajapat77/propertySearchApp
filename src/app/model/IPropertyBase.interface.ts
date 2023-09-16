@@ -1,16 +1,18 @@
 
 export interface IPropertyBase{
-  Id:Number,
-  SellRent:Number,
-  Name:string,
-  PType:string,
-  FType?:string,
-  Image?:string,
-  Price:Number,
-  BHK?:number,
-  BuiltArea?:number,
-  City?:string,
-  RTM?:number
+  Id: number;
+  SellRent: number;
+  Name: string;
+  PType: string;
+  FType: string;
+  Price: number;
+  BHK: number;
+  BuiltArea: number;
+  City: string;
+  RTM: boolean;
+  Photo?: string;
+  estPossessionOn?: string;
+
 }
 
 
